@@ -1,0 +1,54 @@
+.container
+    {
+      height: 723px;
+    }
+    .header
+    {
+      height: 289px;
+      background-color: lightslategrey;
+      background-size: 100% 289px;
+      opacity: 0.75;
+    }
+    .picture
+    {
+      height: 289px;
+      background-color: turquoise;
+      background: url(https://image.freepik.com/free-vector/appointment-booking-with-calendar_23-2148553008.jpg) left no-repeat, url(https://www.asds.net/Portals/0/Images/hero-medical-professionals.jpg) right no-repeat, url(https://i.pinimg.com/originals/b4/3a/44/b43a445b6dc4d05e0c86b30cd93d6b6e.jpg) no-repeat;
+      background-size: 25% 289px, 25% 289px, 100% 267px;
+    }
+    .body
+    {
+      height: 378px;
+      background-color: azure; 
+    }
+    .login
+    {
+      height: 378px;
+      width: 35%;
+      background-color: azure;
+      float: left;
+    }
+    .adminlogin
+    {
+      height: 378px;
+      width: 35%;
+      background-color: azure;
+      float: right;
+    }
+    .footer
+    {
+      height: 55px;
+      background-color: gainsboro;
+    }
+    .left
+    {
+      height: 45px;
+      width: 50%;
+      float: left;
+    }
+    .right
+    {
+      height: 45px;
+      width: 50%;
+      float: right;
+    }

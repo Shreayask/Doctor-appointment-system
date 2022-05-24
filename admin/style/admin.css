@@ -1,0 +1,108 @@
+.container {
+  height: 100%;
+  background-image: url(https://icons8.com/wp-content/uploads/2020/02/how-to-create-gradient-article.jpg);
+  background-size: 100% 100%;
+}
+.header {
+  height: 5%;
+  background-color: mediumslateblue;
+  background-image: linear-gradient(
+    to left,
+    aliceblue,
+    lightsteelblue,
+    darkslateblue
+  );
+  box-shadow: 10px 10px, white;
+  background-size: 100% 10%;
+}
+.head {
+  height: 5%;
+  width: 95%;
+  float: left;
+}
+.profile {
+  height: 5%;
+  width: 5%;
+  float: right;
+}
+.body {
+  height: 95%;
+  background-image: linear-gradient(
+    to left,
+    lavender,
+    lightgray,
+    lightslategray
+  );
+  background-size: 100% 95%;
+}
+.left {
+  height: 95%;
+  width: 20%;
+  background-color: midnightblue;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  float: left;
+}
+.right {
+  height: 95%;
+  width: 80%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  float: right;
+}
+.top {
+  height: 45%;
+  position: fixed;
+  right: 0;
+  width: 80%;
+}
+.tl {
+  height: 45%;
+  width: 30%;
+  float: left;
+}
+.tr {
+  height: 45%;
+  width: 30%;
+  float: right;
+}
+.middle {
+  height: 45%;
+  position: fixed;
+  right: 0;
+  top: 377;
+  bottom: 0;
+  width: 80%;
+}
+.ml {
+  height: 45%;
+  width: 45%;
+  float: left;
+}
+.mr {
+  height: 45%;
+  width: 45%;
+  float: right;
+}
+.footer {
+  height: 5%;
+  width: 80%;
+  background-color: lavender;
+  position: fixed;
+  right: 0;
+  top: 715;
+  bottom: 0;
+}
+.ls {
+  height: 5%;
+  width: 40%;
+  float: left;
+}
+.rs {
+  height: 5%;
+  width: 40%;
+  float: right;
+}
